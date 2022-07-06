@@ -5,12 +5,6 @@ module.exports = {
   },
   plugins: [
     {
-    resolve: 'gatsby-source-datocms',
-    options: {
-      "apiToken": "313275352b69eaf8f46714d9c18f22"
-    }
-  },
-    {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
@@ -30,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken: `58f9e18414dbb056a9c166348c61ae`,
+        apiToken: `42496ee1512781f9d7177919fe07cd`,
         preview: false,
         disableLiveReload: false,
       }
